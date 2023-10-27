@@ -1,0 +1,22 @@
+{
+    "name": "umarv-ros2",
+    "service": "umarv-ros2",
+    "dockerComposeFile": "windows/docker-compose.yml",
+    "workspaceFolder": "/home/umarv/ws/",
+    "remoteUser" : "umarv",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-iot.vscode-ros", 
+                "twxs.cmake",
+                "github.copilot",
+                "eamodio.gitlens",
+                "streetsidesoftware.code-spell-checker",
+                "oderwat.indent-rainbow", 
+                "ms-vscode.cpptools-extension-pack"
+            ]
+        }
+    },
+    "postStartCommand": "rosup",
+    "shutdownAction": "stopCompose"
+}
