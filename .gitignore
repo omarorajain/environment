@@ -1,9 +1,3 @@
-# exclude everything
-ros2/ws/*
-
-# exception to the rule
-!ros2/ws/.gitkeep
-
 # devel/
 # logs/
 # build/
