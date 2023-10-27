@@ -1,8 +1,8 @@
 # exclude everything
-ws/*
+ros2/ws/*
 
 # exception to the rule
-!ws/.gitkeep 
+!ros2/ws/.gitkeep
 
 # devel/
 # logs/
