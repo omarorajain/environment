@@ -50,10 +50,10 @@
 # # Catkin custom files
 # CATKIN_IGNORE
 
-# # Colcon output
-# build/
-# install/
-# log/
+# Colcon output
+build/
+install/
+log/
 
 # # Other
 # .vscode/
