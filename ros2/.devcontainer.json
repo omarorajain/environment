@@ -2,7 +2,7 @@
     "name": "umarv-ros2",
     "service": "umarv-ros2",
     "dockerComposeFile": "windows/docker-compose.yml",
-    "workspaceFolder": "/home/umarv/ws/",
+    "workspaceFolder": "/home/umarv/ws/Onboarding",
     "remoteUser" : "umarv",
     "customizations": {
         "vscode": {
@@ -16,7 +16,7 @@
                 "ms-vscode.cpptools-extension-pack"
             ]
         }
-    },
-    "postStartCommand": "rosup",
-    "shutdownAction": "stopCompose"
+    }
+    // "postCreateCommand": "echo \"alias rosup='sudo apt update; rosdep update; rosdep install --from-paths ${localWorkspaceFolder}/src -y --ignore-src'\" >> ~/.bashrc; echo \"alias rossrc='source ${localWorkspaceFolder}/install/setup.bash'\" >> ~/.bashrc"
+    // "shutdownAction": "stopCompose"
 }
