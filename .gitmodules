@@ -1,0 +1,3 @@
+[submodule "ros2/ws/Onboarding"]
+	path = ros2/ws/Onboarding
+	url = https://github.com/omarorajain/ros2_onboarding.git
