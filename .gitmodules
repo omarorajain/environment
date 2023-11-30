@@ -5,3 +5,7 @@
 	path = ros2/ws/original_cpp_gps_transform
 	url = https://github.com/umigv/nav_stack.git
 	branch = gps_transform
+[submodule "ros2/ws/new_ros2_gps_transform"]
+	path = ros2/ws/new_ros2_gps_transform
+	url = https://github.com/umigv/nav_stack.git
+	branch = gps-transform-node-ros2
