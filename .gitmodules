@@ -2,6 +2,6 @@
 	path = ros2/ws/Onboarding
 	url = https://github.com/omarorajain/ros2_onboarding.git
 [submodule "cpp_gps_transform"]
-	path = cpp_gps_transform
+	path = ros2/ws/original_cpp_gps_transform
 	url = https://github.com/umigv/nav_stack.git
 	branch = gps_transform
