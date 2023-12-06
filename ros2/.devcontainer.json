@@ -2,7 +2,7 @@
     "name": "umarv-ros2",
     "service": "umarv-ros2",
     "dockerComposeFile": "windows/docker-compose.yml",
-    "workspaceFolder": "/home/umarv/ws/Onboarding",
+    "workspaceFolder": "/home/umarv/ws/new_ros2_gps_transform",
     "remoteUser" : "umarv",
     "customizations": {
         "vscode": {
