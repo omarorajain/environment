@@ -9,7 +9,7 @@ services:
     build: ../
     hostname: umarv-ros2
     environment:
-      DISPLAY: ${DISPLAY}
+      DISPLAY: ":0"
       WAYLAND_DISPLAY: ${WAYLAND_DISPLAY}
       XDG_RUNTIME_DIR: ${XDG_RUNTIME_DIR}
       PULSE_SERVER: ${PULSE_SERVER}
