@@ -6,7 +6,12 @@ services:
   umarv-ros2:
     container_name: umarv-ros2
     image: ros-humble-desktop-full
-    build: ../
+    privileged: true
+    network_mode: host
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    command: /bin/bash -c "while sleep 1000; do :; done"
     hostname: umarv-ros2
     environment:
       DISPLAY: ":0"
@@ -19,6 +24,8 @@ services:
       - /mnt/wslg:/mnt/wslg
       - /usr/lib/wsl:/usr/lib/wsl
       - ../ws:/home/umarv/ws
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
     devices:
       - /dev/dxg:/dev/dxg
       # - /dev/ttyUSB0:/dev/ttyUSB0
